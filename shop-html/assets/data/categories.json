@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "name": "手机数码",
+        "slug": "mobile-digital",
+        "parentId": 0,
+        "image": "assets/images/categories/mobile.jpg",
+        "description": "手机及数码产品",
+        "sortOrder": 1,
+        "isActive": true,
+        "children": [
+            {
+                "id": 11,
+                "name": "智能手机",
+                "slug": "smartphones",
+                "parentId": 1,
+                "sortOrder": 1
+            },
+            {
+                "id": 12,
+                "name": "平板电脑",
+                "slug": "tablets",
+                "parentId": 1,
+                "sortOrder": 2
+            },
+            {
+                "id": 13,
+                "name": "数码配件",
+                "slug": "digital-accessories",
+                "parentId": 1,
+                "sortOrder": 3
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "电脑办公",
+        "slug": "computer-office",
+        "parentId": 0,
+        "image": "assets/images/categories/computer.jpg",
+        "description": "电脑及办公设备",
+        "sortOrder": 2,
+        "isActive": true,
+        "children": [
+            {
+                "id": 21,
+                "name": "笔记本电脑",
+                "slug": "laptops",
+                "parentId": 2,
+                "sortOrder": 1
+            },
+            {
+                "id": 22,
+                "name": "台式机",
+                "slug": "desktops",
+                "parentId": 2,
+                "sortOrder": 2
+            },
+            {
+                "id": 23,
+                "name": "办公设备",
+                "slug": "office-equipment",
+                "parentId": 2,
+                "sortOrder": 3
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "服装鞋帽",
+        "slug": "clothing-shoes",
+        "parentId": 0,
+        "image": "assets/images/categories/clothing.jpg",
+        "description": "服装鞋帽类商品",
+        "sortOrder": 3,
+        "isActive": true,
+        "children": [
+            {
+                "id": 31,
+                "name": "男装",
+                "slug": "mens-clothing",
+                "parentId": 3,
+                "sortOrder": 1
+            },
+            {
+                "id": 32,
+                "name": "女装",
+                "slug": "womens-clothing",
+                "parentId": 3,
+                "sortOrder": 2
+            },
+            {
+                "id": 33,
+                "name": "鞋靴",
+                "slug": "shoes",
+                "parentId": 3,
+                "sortOrder": 3
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "家居生活",
+        "slug": "home-living",
+        "parentId": 0,
+        "image": "assets/images/categories/home.jpg",
+        "description": "家居生活用品",
+        "sortOrder": 4,
+        "isActive": true,
+        "children": [
+            {
+                "id": 41,
+                "name": "家具",
+                "slug": "furniture",
+                "parentId": 4,
+                "sortOrder": 1
+            },
+            {
+                "id": 42,
+                "name": "家电",
+                "slug": "home-appliances",
+                "parentId": 4,
+                "sortOrder": 2
+            },
+            {
+                "id": 43,
+                "name": "家居用品",
+                "slug": "home-goods",
+                "parentId": 4,
+                "sortOrder": 3
+            }
+        ]
+    }
+]

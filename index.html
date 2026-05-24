@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>酷炫 Todo List</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="title">
+                <i class="fas fa-rocket"></i>
+                酷炫 Todo List
+            </h1>
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-number" id="total-tasks">0</span>
+                    <span class="stat-label">总任务</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="completed-tasks">0</span>
+                    <span class="stat-label">已完成</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="remaining-tasks">0</span>
+                    <span class="stat-label">待完成</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="input-section">
+            <div class="input-wrapper">
+                <input type="text" id="todo-input" placeholder="输入新任务..." maxlength="100">
+                <button id="add-btn" class="add-btn">
+                    <i class="fas fa-plus"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">
+                <i class="fas fa-list"></i>
+                全部
+            </button>
+            <button class="filter-btn" data-filter="active">
+                <i class="fas fa-clock"></i>
+                进行中
+            </button>
+            <button class="filter-btn" data-filter="completed">
+                <i class="fas fa-check"></i>
+                已完成
+            </button>
+        </div>
+
+        <div class="todo-list-container">
+            <ul id="todo-list" class="todo-list">
+                <!-- 动态生成的任务项 -->
+            </ul>
+            <div class="empty-state" id="empty-state">
+                <i class="fas fa-clipboard-list"></i>
+                <p>暂无任务，添加一个新任务开始吧！</p>
+            </div>
+        </div>
+
+        <div class="actions">
+            <button id="clear-completed" class="action-btn">
+                <i class="fas fa-trash"></i>
+                清除已完成
+            </button>
+            <button id="clear-all" class="action-btn danger">
+                <i class="fas fa-trash-alt"></i>
+                清除全部
+            </button>
+        </div>
+    </div>
+
+    <!-- 确认删除模态框 -->
+    <div class="modal" id="delete-modal">
+        <div class="modal-content">
+            <h3>确认删除</h3>
+            <p id="delete-message">确定要删除这个任务吗？</p>
+            <div class="modal-actions">
+                <button id="confirm-delete" class="btn btn-danger">确认</button>
+                <button id="cancel-delete" class="btn btn-secondary">取消</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

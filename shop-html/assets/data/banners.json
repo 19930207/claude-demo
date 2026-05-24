@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "精选好物，品质生活",
+        "subtitle": "为您提供优质的购物体验",
+        "image": "assets/images/banners/banner1.jpg",
+        "link": "pages/products.html",
+        "buttonText": "立即购买",
+        "position": 1,
+        "isActive": true,
+        "startTime": "2024-01-01T00:00:00Z",
+        "endTime": "2024-12-31T23:59:59Z"
+    },
+    {
+        "id": 2,
+        "title": "数码新品，限时特惠",
+        "subtitle": "最新科技产品，优惠价格",
+        "image": "assets/images/banners/banner2.jpg",
+        "link": "pages/products.html?category=1",
+        "buttonText": "查看详情",
+        "position": 2,
+        "isActive": true,
+        "startTime": "2024-01-01T00:00:00Z",
+        "endTime": "2024-12-31T23:59:59Z"
+    },
+    {
+        "id": 3,
+        "title": "时尚服饰，焕新自我",
+        "subtitle": "潮流款式，舒适体验",
+        "image": "assets/images/banners/banner3.jpg",
+        "link": "pages/products.html?category=3",
+        "buttonText": "立即选购",
+        "position": 3,
+        "isActive": true,
+        "startTime": "2024-01-01T00:00:00Z",
+        "endTime": "2024-12-31T23:59:59Z"
+    }
+]

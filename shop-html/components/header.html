@@ -1,0 +1,79 @@
+<!-- Header Component -->
+<header class="header">
+    <div class="container">
+        <!-- Top Bar -->
+        <div class="header__top">
+            <div class="header__contact">
+                <span><i class="fas fa-phone"></i> 400-888-9999</span>
+                <span><i class="fas fa-envelope"></i> service@youpin.com</span>
+            </div>
+            <div class="header__user">
+                <a href="#" class="header__link">登录</a>
+                <a href="#" class="header__link">注册</a>
+                <a href="#" class="header__link">我的订单</a>
+            </div>
+        </div>
+        
+        <!-- Main Header -->
+        <div class="header__main">
+            <div class="header__logo">
+                <a href="../index.html">
+                    <img src="../assets/images/logo.png" alt="优品商城" width="120" height="40">
+                </a>
+            </div>
+            
+            <!-- Search -->
+            <div class="header__search">
+                <form class="search-form">
+                    <input type="search" 
+                           class="search-form__input" 
+                           placeholder="搜索商品..."
+                           aria-label="搜索商品">
+                    <button type="submit" class="search-form__button" aria-label="搜索">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+            
+            <!-- Cart -->
+            <div class="header__cart">
+                <a href="../pages/cart.html" class="cart-link">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-link__text">购物车</span>
+                    <span class="cart-link__count" id="cart-count">0</span>
+                </a>
+            </div>
+        </div>
+        
+        <!-- Navigation -->
+        <nav class="header__nav">
+            <ul class="nav-menu">
+                <li class="nav-menu__item">
+                    <a href="../index.html" class="nav-menu__link">首页</a>
+                </li>
+                <li class="nav-menu__item">
+                    <a href="products.html?category=1" class="nav-menu__link">手机数码</a>
+                </li>
+                <li class="nav-menu__item">
+                    <a href="products.html?category=2" class="nav-menu__link">电脑办公</a>
+                </li>
+                <li class="nav-menu__item">
+                    <a href="products.html?category=3" class="nav-menu__link">服装鞋帽</a>
+                </li>
+                <li class="nav-menu__item">
+                    <a href="products.html?category=4" class="nav-menu__link">家居生活</a>
+                </li>
+                <li class="nav-menu__item">
+                    <a href="products.html" class="nav-menu__link">全部商品</a>
+                </li>
+            </ul>
+            
+            <!-- Mobile Menu Toggle -->
+            <button class="nav-toggle" aria-label="切换菜单" aria-expanded="false">
+                <span class="nav-toggle__line"></span>
+                <span class="nav-toggle__line"></span>
+                <span class="nav-toggle__line"></span>
+            </button>
+        </nav>
+    </div>
+</header>

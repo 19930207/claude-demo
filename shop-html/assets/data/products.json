@@ -1,0 +1,487 @@
+[
+    {
+        "id": 1,
+        "name": "iPhone 15 Pro 深空黑色",
+        "description": "苹果最新旗舰手机，搭载A17 Pro芯片，支持USB-C接口，拍照性能大幅提升。",
+        "price": 7999.00,
+        "originalPrice": 8999.00,
+        "image": "assets/images/products/iphone15pro.jpg",
+        "images": [
+            "assets/images/products/iphone15pro-1.jpg",
+            "assets/images/products/iphone15pro-2.jpg",
+            "assets/images/products/iphone15pro-3.jpg"
+        ],
+        "categoryId": 1,
+        "brand": "Apple",
+        "stock": 50,
+        "sales": 1256,
+        "rating": 4.8,
+        "isHot": true,
+        "isRecommended": true,
+        "specifications": {
+            "color": ["深空黑", "原色钛金属", "白色钛金属", "蓝色钛金属"],
+            "storage": ["128GB", "256GB", "512GB", "1TB"],
+            "screen": "6.1英寸",
+            "camera": "4800万像素主摄",
+            "battery": "3274mAh"
+        },
+        "tags": ["热门", "新品", "5G"],
+        "createdAt": "2024-01-15T10:30:00Z"
+    },
+    {
+        "id": 2,
+        "name": "华为Mate 60 Pro",
+        "description": "华为回归之作，搭载麒麟芯片，支持卫星通话功能，续航表现出色。",
+        "price": 6999.00,
+        "originalPrice": 7499.00,
+        "image": "assets/images/products/mate60pro.jpg",
+        "images": [
+            "assets/images/products/mate60pro-1.jpg",
+            "assets/images/products/mate60pro-2.jpg"
+        ],
+        "categoryId": 1,
+        "brand": "华为",
+        "stock": 30,
+        "sales": 892,
+        "rating": 4.7,
+        "isHot": true,
+        "isRecommended": false,
+        "specifications": {
+            "color": ["雅川青", "雅丹黑", "南糯紫", "白沙银"],
+            "storage": ["256GB", "512GB", "1TB"],
+            "screen": "6.82英寸",
+            "camera": "5000万像素主摄"
+        },
+        "tags": ["热门", "卫星通话"],
+        "createdAt": "2024-01-10T14:20:00Z"
+    },
+    {
+        "id": 3,
+        "name": "小米14 Ultra",
+        "description": "小米旗舰机型，徕卡影像系统，骁龙8 Gen3处理器，拍照体验极佳。",
+        "price": 5999.00,
+        "originalPrice": 6499.00,
+        "image": "assets/images/products/mi14ultra.jpg",
+        "images": [
+            "assets/images/products/mi14ultra-1.jpg",
+            "assets/images/products/mi14ultra-2.jpg"
+        ],
+        "categoryId": 1,
+        "brand": "小米",
+        "stock": 45,
+        "sales": 736,
+        "rating": 4.6,
+        "isHot": false,
+        "isRecommended": true,
+        "specifications": {
+            "color": ["钛金属黑", "钛金属蓝", "白色"],
+            "storage": ["256GB", "512GB", "1TB"],
+            "screen": "6.73英寸",
+            "camera": "5000万像素徕卡主摄"
+        },
+        "tags": ["徕卡", "拍照旗舰"],
+        "createdAt": "2024-01-08T09:15:00Z"
+    },
+    {
+        "id": 4,
+        "name": "MacBook Pro 14英寸 M3芯片",
+        "description": "苹果专业级笔记本电脑，搭载M3芯片，性能强劲，适合专业创作。",
+        "price": 14999.00,
+        "originalPrice": 15999.00,
+        "image": "assets/images/products/macbookpro14.jpg",
+        "images": [
+            "assets/images/products/macbookpro14-1.jpg",
+            "assets/images/products/macbookpro14-2.jpg"
+        ],
+        "categoryId": 2,
+        "brand": "Apple",
+        "stock": 20,
+        "sales": 456,
+        "rating": 4.9,
+        "isHot": false,
+        "isRecommended": true,
+        "specifications": {
+            "color": ["深空灰色", "银色"],
+            "chip": ["M3", "M3 Pro", "M3 Max"],
+            "memory": ["8GB", "18GB", "36GB"],
+            "storage": ["512GB", "1TB", "2TB"],
+            "screen": "14.2英寸 Liquid Retina XDR"
+        },
+        "tags": ["专业", "创作"],
+        "createdAt": "2024-01-12T16:45:00Z"
+    },
+    {
+        "id": 5,
+        "name": "联想ThinkPad X1 Carbon",
+        "description": "商务笔记本电脑标杆，轻薄便携，续航出色，适合商务人士。",
+        "price": 12999.00,
+        "originalPrice": 13999.00,
+        "image": "assets/images/products/thinkpadx1.jpg",
+        "images": [
+            "assets/images/products/thinkpadx1-1.jpg"
+        ],
+        "categoryId": 2,
+        "brand": "联想",
+        "stock": 25,
+        "sales": 324,
+        "rating": 4.5,
+        "isHot": false,
+        "isRecommended": false,
+        "specifications": {
+            "color": ["黑色"],
+            "processor": ["Intel i7-1365U"],
+            "memory": ["16GB", "32GB"],
+            "storage": ["512GB SSD", "1TB SSD"],
+            "screen": "14英寸 2.8K"
+        },
+        "tags": ["商务", "轻薄"],
+        "createdAt": "2024-01-05T11:30:00Z"
+    },
+    {
+        "id": 6,
+        "name": "戴尔XPS 13",
+        "description": "轻薄本典范，13英寸4K显示屏，性能与便携性完美平衡。",
+        "price": 8999.00,
+        "originalPrice": 9999.00,
+        "image": "assets/images/products/dellxps13.jpg",
+        "images": [
+            "assets/images/products/dellxps13-1.jpg"
+        ],
+        "categoryId": 2,
+        "brand": "戴尔",
+        "stock": 35,
+        "sales": 567,
+        "rating": 4.4,
+        "isHot": true,
+        "isRecommended": false,
+        "specifications": {
+            "color": ["铂金银", "玫瑰金"],
+            "processor": ["Intel i7-1360P"],
+            "memory": ["16GB", "32GB"],
+            "storage": ["512GB SSD", "1TB SSD"],
+            "screen": "13.4英寸 4K+"
+        },
+        "tags": ["轻薄", "4K屏幕"],
+        "createdAt": "2024-01-03T13:20:00Z"
+    },
+    {
+        "id": 7,
+        "name": "优衣库男士基础款T恤",
+        "description": "100%纯棉面料，舒适透气，多色可选，日常穿着首选。",
+        "price": 99.00,
+        "originalPrice": 129.00,
+        "image": "assets/images/products/uniqlo-tshirt.jpg",
+        "images": [
+            "assets/images/products/uniqlo-tshirt-1.jpg",
+            "assets/images/products/uniqlo-tshirt-2.jpg"
+        ],
+        "categoryId": 3,
+        "brand": "优衣库",
+        "stock": 100,
+        "sales": 2345,
+        "rating": 4.3,
+        "isHot": true,
+        "isRecommended": false,
+        "specifications": {
+            "color": ["白色", "黑色", "灰色", "蓝色", "红色"],
+            "size": ["S", "M", "L", "XL", "XXL"],
+            "material": "100%纯棉",
+            "style": "圆领短袖"
+        },
+        "tags": ["基础款", "纯棉"],
+        "createdAt": "2024-01-01T08:00:00Z"
+    },
+    {
+        "id": 8,
+        "name": "ZARA女士连衣裙",
+        "description": "时尚设计，优质面料，适合多种场合穿着，展现女性优雅气质。",
+        "price": 299.00,
+        "originalPrice": 399.00,
+        "image": "assets/images/products/zara-dress.jpg",
+        "images": [
+            "assets/images/products/zara-dress-1.jpg"
+        ],
+        "categoryId": 3,
+        "brand": "ZARA",
+        "stock": 80,
+        "sales": 1234,
+        "rating": 4.2,
+        "isHot": false,
+        "isRecommended": true,
+        "specifications": {
+            "color": ["黑色", "白色", "蓝色", "红色"],
+            "size": ["S", "M", "L", "XL"],
+            "material": "聚酯纤维",
+            "style": "A字型连衣裙"
+        },
+        "tags": ["时尚", "优雅"],
+        "createdAt": "2023-12-28T15:30:00Z"
+    },
+    {
+        "id": 9,
+        "name": "Nike Air Max 270",
+        "description": "经典跑鞋，Air Max气垫缓震，舒适度极佳，街头时尚单品。",
+        "price": 899.00,
+        "originalPrice": 1099.00,
+        "image": "assets/images/products/nike-airmax270.jpg",
+        "images": [
+            "assets/images/products/nike-airmax270-1.jpg"
+        ],
+        "categoryId": 3,
+        "brand": "Nike",
+        "stock": 60,
+        "sales": 987,
+        "rating": 4.6,
+        "isHot": true,
+        "isRecommended": false,
+        "specifications": {
+            "color": ["白色", "黑色", "蓝色", "红色"],
+            "size": ["36", "37", "38", "39", "40", "41", "42", "43", "44", "45"],
+            "material": "合成革+网布",
+            "technology": "Air Max气垫"
+        },
+        "tags": ["运动", "时尚", "缓震"],
+        "createdAt": "2023-12-25T12:15:00Z"
+    },
+    {
+        "id": 10,
+        "name": "宜家BILLY书架",
+        "description": "经典书架设计，可调节隔板，多种尺寸可选，实用性强。",
+        "price": 199.00,
+        "originalPrice": 249.00,
+        "image": "assets/images/products/ikea-billy.jpg",
+        "images": [
+            "assets/images/products/ikea-billy-1.jpg"
+        ],
+        "categoryId": 4,
+        "brand": "宜家",
+        "stock": 120,
+        "sales": 1567,
+        "rating": 4.4,
+        "isHot": false,
+        "isRecommended": true,
+        "specifications": {
+            "color": ["白色", "桦木色", "黑褐色"],
+            "size": ["80cm宽", "40cm宽", "60cm宽"],
+            "material": "刨花板",
+            "height": "202cm"
+        },
+        "tags": ["实用", "北欧风"],
+        "createdAt": "2023-12-20T10:45:00Z"
+    },
+    {
+        "id": 11,
+        "name": "小米智能电视 65英寸",
+        "description": "4K超高清显示，支持HDR10+，内置小爱同学，智能家居控制中心。",
+        "price": 2999.00,
+        "originalPrice": 3499.00,
+        "image": "assets/images/products/mi-tv65.jpg",
+        "images": [
+            "assets/images/products/mi-tv65-1.jpg"
+        ],
+        "categoryId": 4,
+        "brand": "小米",
+        "stock": 40,
+        "sales": 876,
+        "rating": 4.5,
+        "isHot": true,
+        "isRecommended": true,
+        "specifications": {
+            "size": "65英寸",
+            "resolution": "4K超高清",
+            "hdr": "HDR10+",
+            "smart": "MIUI TV系统",
+            "voice": "小爱同学"
+        },
+        "tags": ["4K", "智能", "大屏"],
+        "createdAt": "2023-12-18T14:20:00Z"
+    },
+    {
+        "id": 12,
+        "name": "戴森V15无线吸尘器",
+        "description": "强劲吸力，激光显微尘检测，智能感应清洁，家居清洁好帮手。",
+        "price": 4999.00,
+        "originalPrice": 5499.00,
+        "image": "assets/images/products/dyson-v15.jpg",
+        "images": [
+            "assets/images/products/dyson-v15-1.jpg"
+        ],
+        "categoryId": 4,
+        "brand": "戴森",
+        "stock": 25,
+        "sales": 543,
+        "rating": 4.7,
+        "isHot": false,
+        "isRecommended": true,
+        "specifications": {
+            "type": "无线手持式",
+            "battery": "最长60分钟续航",
+            "technology": "激光显微尘检测",
+            "filter": "HEPA过滤",
+            "accessories": "多种清洁头"
+        },
+        "tags": ["无线", "强力", "智能"],
+        "createdAt": "2023-12-15T16:10:00Z"
+    },
+    {
+        "id": 13,
+        "name": "Samsung Galaxy S24 Ultra",
+        "description": "三星旗舰手机，S Pen手写笔支持，AI摄影功能，200MP超清主摄。",
+        "price": 8999.00,
+        "originalPrice": 9999.00,
+        "image": "assets/images/products/galaxy-s24ultra.jpg",
+        "images": [
+            "assets/images/products/galaxy-s24ultra-1.jpg"
+        ],
+        "categoryId": 1,
+        "brand": "三星",
+        "stock": 35,
+        "sales": 678,
+        "rating": 4.6,
+        "isHot": false,
+        "isRecommended": false,
+        "specifications": {
+            "color": ["钛黑色", "钛紫色", "钛灰色", "钛黄色"],
+            "storage": ["256GB", "512GB", "1TB"],
+            "screen": "6.8英寸 Dynamic AMOLED",
+            "camera": "200MP主摄",
+            "spen": "内置S Pen"
+        },
+        "tags": ["S Pen", "AI摄影"],
+        "createdAt": "2023-12-12T11:25:00Z"
+    },
+    {
+        "id": 14,
+        "name": "iPad Air 11英寸 M2芯片",
+        "description": "轻薄便携平板电脑，M2芯片性能强劲，支持Apple Pencil，创作利器。",
+        "price": 4599.00,
+        "originalPrice": 4999.00,
+        "image": "assets/images/products/ipad-air-m2.jpg",
+        "images": [
+            "assets/images/products/ipad-air-m2-1.jpg"
+        ],
+        "categoryId": 1,
+        "brand": "Apple",
+        "stock": 45,
+        "sales": 789,
+        "rating": 4.7,
+        "isHot": false,
+        "isRecommended": true,
+        "specifications": {
+            "color": ["深空灰色", "星光色", "粉色", "蓝色", "紫色"],
+            "storage": ["128GB", "256GB", "512GB", "1TB"],
+            "screen": "11英寸 Liquid Retina",
+            "chip": "M2芯片",
+            "pencil": "支持Apple Pencil"
+        },
+        "tags": ["M2芯片", "创作", "轻薄"],
+        "createdAt": "2023-12-10T09:40:00Z"
+    },
+    {
+        "id": 15,
+        "name": "华硕ROG游戏本",
+        "description": "专业游戏笔记本，RTX 4060独显，144Hz高刷屏，游戏性能卓越。",
+        "price": 8999.00,
+        "originalPrice": 9999.00,
+        "image": "assets/images/products/asus-rog.jpg",
+        "images": [
+            "assets/images/products/asus-rog-1.jpg"
+        ],
+        "categoryId": 2,
+        "brand": "华硕",
+        "stock": 30,
+        "sales": 456,
+        "rating": 4.5,
+        "isHot": true,
+        "isRecommended": false,
+        "specifications": {
+            "color": ["电竞黑"],
+            "processor": "Intel i7-13700H",
+            "graphics": "RTX 4060",
+            "memory": "16GB DDR5",
+            "storage": "1TB SSD",
+            "screen": "15.6英寸 144Hz"
+        },
+        "tags": ["游戏", "高性能", "独显"],
+        "createdAt": "2023-12-08T13:55:00Z"
+    },
+    {
+        "id": 16,
+        "name": "Adidas Ultra Boost 22",
+        "description": "经典跑鞋，Boost中底缓震科技，舒适透气，跑步运动首选。",
+        "price": 1299.00,
+        "originalPrice": 1499.00,
+        "image": "assets/images/products/adidas-ultraboost.jpg",
+        "images": [
+            "assets/images/products/adidas-ultraboost-1.jpg"
+        ],
+        "categoryId": 3,
+        "brand": "Adidas",
+        "stock": 70,
+        "sales": 1123,
+        "rating": 4.4,
+        "isHot": false,
+        "isRecommended": false,
+        "specifications": {
+            "color": ["白色", "黑色", "蓝色"],
+            "size": ["36", "37", "38", "39", "40", "41", "42", "43", "44", "45"],
+            "material": "Primeknit鞋面",
+            "technology": "Boost缓震科技"
+        },
+        "tags": ["跑步", "缓震", "舒适"],
+        "createdAt": "2023-12-05T17:20:00Z"
+    },
+    {
+        "id": 17,
+        "name": "无印良品收纳箱",
+        "description": "简约设计，环保材质，多种规格，完美收纳解决方案。",
+        "price": 89.00,
+        "originalPrice": 119.00,
+        "image": "assets/images/products/muji-storage.jpg",
+        "images": [
+            "assets/images/products/muji-storage-1.jpg"
+        ],
+        "categoryId": 4,
+        "brand": "无印良品",
+        "stock": 150,
+        "sales": 2134,
+        "rating": 4.3,
+        "isHot": false,
+        "isRecommended": true,
+        "specifications": {
+            "color": ["原木色", "白色"],
+            "size": ["小号", "中号", "大号"],
+            "material": "环保纸板",
+            "style": "简约收纳"
+        },
+        "tags": ["收纳", "环保", "简约"],
+        "createdAt": "2023-12-03T12:30:00Z"
+    },
+    {
+        "id": 18,
+        "name": "海尔智能洗衣机 10KG",
+        "description": "大容量洗衣机，智能投放，多种洗涤模式，家庭洗衣好帮手。",
+        "price": 2699.00,
+        "originalPrice": 2999.00,
+        "image": "assets/images/products/haier-washer.jpg",
+        "images": [
+            "assets/images/products/haier-washer-1.jpg"
+        ],
+        "categoryId": 4,
+        "brand": "海尔",
+        "stock": 40,
+        "sales": 687,
+        "rating": 4.4,
+        "isHot": false,
+        "isRecommended": false,
+        "specifications": {
+            "capacity": "10公斤",
+            "type": "滚筒洗衣机",
+            "features": "智能投放",
+            "programs": "16种洗涤程序",
+            "energy": "一级能效"
+        },
+        "tags": ["大容量", "智能", "节能"],
+        "createdAt": "2023-12-01T15:15:00Z"
+    }
+]
